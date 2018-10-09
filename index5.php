@@ -1,6 +1,6 @@
 <?php
 
-	include("connect.php"); 	
+	include("connect5.php"); 	
 	$link=Connection();
 	$result=mysql_query("SELECT * FROM `iot_temp` ORDER BY `date` DESC",$link);
 ?>

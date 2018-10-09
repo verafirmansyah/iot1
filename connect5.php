@@ -3,7 +3,7 @@
 		$server="localhost";
 		$user="root";
 		$pass="";
-		$db="ci_iot_server"; 	
+		$db="iot1"; 	
 		$connection = mysql_connect($server, $user, $pass);
 		if (!$connection) {
 	    	die('MySQL ERROR: ' . mysql_error());
